@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AstarPath
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 78396926cbbfc4ac3b48fc5fc34a87d1,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: version
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.dataString
+    value: UEsDBBQAAAgIAAAQIezZKE5fUgIAAPUEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVEtz2jAQ/iuMzqVjXCCht9YQ0gOBCenk4ouw11iDLHn0CI8M/70r+VnnZOnbb3e/fcifhAldQmKkWiuWbmQK5OeIuDP5NuqMz3ChRyn27AYN552lJnck6jmv1DCJ+MS5aVmAUSz5JY7ckQMErWCZVMUqPUIktdEIZ5RrQJOSxnkLhD5H5IKf8cK5XPEUPrjTDU+LYHTHYwLCgOqoDXFW0yqWFQmnRQmpk9yRwzZsRRNYTM0IvocuRCI5Z7oWQ8y19MVGtNQWS0FCyigW5xWEeM2BHXNTX1rnbZZpMLU6Ra9LprBHVVTyW1aNK6g+VdI+KLcuTzibe1lV0M0X+3jizZmSxXOTdxK4HCZnyemVXhOqTa+zfXjZCZ/4Dp0pP9EDh/ccxItcK2lFikajrHO1GsJld21Li3JITh1eSR2Atvw6n2aMroa7r/4ScVYcfOunFbDn0vfbTx8UDucPCva7oesQiDoVfzW80WN/iWrDE1PaoKmuUjh5B2mVo5KV75mrxppIKgEerkWXICg31x2GMcMRDmy9tAPLE3XPpU5e25pXMHDxcMcPgoFpJ8/tsHQuzxvQ+dYazgR0op3hBfsUSSGqDev3pHHbW5XRpOd2tCz9f7XIYzAPgmw2//EwC2eHhI4nj7CYLuhhCsE8m04WxO8eE1gn5btKaN0enJroggvcs+YvMlorWvptTxU9r9mtkL2WM5HJfaIAxLaK0AoHhUnwYaarlGGD9mAME37e5DMmXCYnSOM2UOwrXV2MonEXJSYl+5DGITGJ/G8jJndy/wdQSwMEFAAACAgAABAh7GVrDrdtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJKFgZmBQZqpmbG5qZFpUnKirqFFqqWJZWKSSaqBWZqJoaVSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABAh7NkoTl9SAgAA9QQAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABAh7GVrDrdtAAAAeAAAAAkAJAAAAAAAAAAAAAAAnwIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABXAwAAAAA=
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.upgradeData.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.file_cachedStartup
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.data_cachedStartup.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data.cacheStartup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showNavGraphs
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showUnwalkableNodes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debugMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debugFloor
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: debugRoof
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: manualDebugFloorRoof
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showSearchTree
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: unwalkableNodeDebugSize
+    value: 0.3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: logPathResults
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxNearestNodeDistance
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scanOnStartup
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: fullGetNearestSearch
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prioritizeGraphs
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: prioritizeGraphsLimit
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._SolidColor.r
+    value: 0.11764706
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._SolidColor.g
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._SolidColor.b
+    value: 0.7882353
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._SolidColor.a
+    value: 0.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._UnwalkableNode.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._UnwalkableNode.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._UnwalkableNode.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._UnwalkableNode.a
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._BoundsHandles.r
+    value: 0.29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._BoundsHandles.g
+    value: 0.454
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._BoundsHandles.b
+    value: 0.741
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._BoundsHandles.a
+    value: 0.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionLowLerp.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionLowLerp.g
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionLowLerp.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionLowLerp.a
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionHighLerp.r
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionHighLerp.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionHighLerp.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._ConnectionHighLerp.a
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._MeshEdgeColor.r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._MeshEdgeColor.g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._MeshEdgeColor.b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._MeshEdgeColor.a
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._AreaColors.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._AreaColors.Array.data[0].r
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._AreaColors.Array.data[0].g
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._AreaColors.Array.data[0].b
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorSettings._AreaColors.Array.data[0].a
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tagNames.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heuristic
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: heuristicScale
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: threadCount
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: maxFrameTime
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: batchGraphUpdates
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: graphUpdateBatchingInterval
+    value: 0.2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: euclideanEmbedding.mode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: euclideanEmbedding.seed
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: euclideanEmbedding.pivotPointRoot
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: euclideanEmbedding.spreadOutCount
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showGraphs
+    value: 1
+    objectReference: {fileID: 0}
